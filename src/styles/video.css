@@ -1,0 +1,52 @@
+body *{
+    margin: 2px;
+    padding: 0;
+}
+.video {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-left: 200px;
+}
+.video a{
+    text-decoration: none;
+    color: black;
+}
+.thumbnail img{
+    height: 225px;
+    width: 400px;
+    border-radius: 10px;
+    margin: 5px;
+}
+.icon img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.details{
+    display: flex;
+    width: 400px;
+    text-justify:auto;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    margin-left: 5px;
+    text-justify: auto;
+}
+.delete{
+    display: flex;
+
+}
+.delete button{
+    margin-left: auto;
+    border: none;
+    background-color: #fff;
+}
+.head{
+    /* height: 70px; */
+    font-weight: 500;
+    content: none;
+
+}
+
+

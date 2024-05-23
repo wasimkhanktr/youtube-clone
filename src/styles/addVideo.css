@@ -1,0 +1,40 @@
+.form{
+    height: 500px;
+    width: 360px;
+    border: 5px solid black;
+    box-shadow: 5px 5px black;
+    border-radius: 20px;
+    background-image: linear-gradient(150deg, rgb(205, 205, 254), white);
+    color: rgb(91, 4, 253);
+    margin: auto;
+    
+}
+.body {
+    padding-top: 50px;
+    background-image: linear-gradient(200deg ,rgba(255, 0, 0, 0.641),rgba(255, 166, 0, 0.395));
+    height: 100vh;
+}
+.addVideo{
+    padding: 25px;
+}
+.addVideo input{
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    padding-left: 20px;
+    box-shadow: 2px 2px rgb(8, 8, 8);
+}
+.addVideo label{
+    font-weight: 500;
+}
+.addVideo button{
+    margin-top: 25px;
+    border-radius: 5px;
+    height: 40px;
+    width: 300px;
+    border: 1px blue solid;
+    background-color: lightblue;
+}
+.addVideo button:hover{
+    background-color: blue;
+}
