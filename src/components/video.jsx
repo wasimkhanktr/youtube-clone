@@ -6,7 +6,7 @@ const Video = () => {
     let [view,setView]=useState([])
     useEffect(()=>{
         let fetchData=async ()=>{
-            let responce =await fetch("http://localhost:4000/video")
+            let responce =await fetch("https://sheetdb.io/api/v1/qu8wsgfirlghq")
             var data=await responce.json()
             setView(data)
 

@@ -18,7 +18,7 @@ const Addvideo = () => {
     }
     if(video.Thumbnail!=="")
     {
-        fetch('http://localhost:4000/video', {
+        fetch('https://sheetdb.io/api/v1/qu8wsgfirlghq', {
         method: 'POST',
         headers: {'Content-Type':'application/json'},
         body: JSON.stringify(video)
